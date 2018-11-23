@@ -1,8 +1,10 @@
 # SMARTtools
 
-One-liner scripts, designed to simplify running SMART checks on hard drives, using the smartctl utility.
+One-liner scripts, designed to simplify running SMART checks on hard drives, using the `smartctl` utility.
 
 You can start a short test on all detected (SATA) drives, with `smart-test-short-start.sh`.
+
+You can start a long test on all detected (SATA) drives, with `smart-test-long-start.sh`.
 
 To check the status of the short test, use `smart-test-status-all.sh`.
 
